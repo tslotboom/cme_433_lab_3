@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ths943/engr-ece
+vCME341_latest_microprocessor
+Z0 !s110 1634428492
+!i10b 1
+!s100 4j5g73_?1aGIUXW@Le3n:2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iz];n=aJ36_`lE9AJXao3[0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro
+Z4 w1634428487
+Z5 8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/simulation/modelsim/lab3_suspend_micro.vo
+Z6 F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/simulation/modelsim/lab3_suspend_micro.vo
+!i122 45
+L0 32 6927
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1634428492.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/simulation/modelsim/lab3_suspend_micro.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/simulation/modelsim/lab3_suspend_micro.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c@m@e341_latest_microprocessor
+vcomputational_unit
+Z12 !s110 1634423687
+!i10b 1
+!s100 n@QVTjh1i`=Z^FkY>X5eR2
+R1
+I5Gdi@j9SIa]^g6=j1>hA70
+R2
+R3
+w1634335402
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/computational_unit.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/computational_unit.v
+!i122 8
+L0 1 250
+R7
+r1
+!s85 0
+31
+Z13 !s108 1634423687.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/computational_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/computational_unit.v|
+!i113 1
+R10
+R11
+vdata_memory
+R12
+!i10b 1
+!s100 BH99E`P1mKJ<Ud^MX`=Pb3
+R1
+ICVZC_<]g90B3;B`P6kOiT1
+R2
+R3
+w1575669367
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/data_memory.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/data_memory.v
+!i122 9
+L0 39 65
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/data_memory.v|
+!i113 1
+R10
+R11
+vhard_block
+R0
+!i10b 1
+!s100 ?z=cFj3aJJ^OKoGRjiVnM0
+R1
+Ikd;XW2=5D5R@X2jC1HiPi0
+R2
+R3
+R4
+R5
+R6
+!i122 45
+L0 6960 34
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/simulation/modelsim/lab3_suspend_micro.vo|
+R9
+!i113 1
+R10
+R11
+vinstruction_decoder
+R12
+!i10b 1
+!s100 2Mn@_>25JEZ^HaFXlEck43
+R1
+I;TIDc>hhAfFWNgYoOb8>h2
+R2
+R3
+w1634335392
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/instruction_decoder.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/instruction_decoder.v
+!i122 10
+L0 1 269
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/instruction_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/instruction_decoder.v|
+!i113 1
+R10
+R11
+vmicroprocessor_tb
+R0
+!i10b 1
+!s100 fLW?5fo>dXMhmLCD>UTG93
+R1
+IZiIzi2>aMZ0oSW7Hc0iiX1
+R2
+R3
+w1634427554
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v
+!i122 44
+L0 3 53
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v|
+!i113 1
+R10
+R11
+vprogram_memory
+R12
+!i10b 1
+!s100 @W30nLed>ZTU9>zOSiPFk2
+R1
+In0R^VB8I5Feoh57MFehX@1
+R2
+R3
+w1634423597
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_memory.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_memory.v
+!i122 12
+L0 39 66
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_memory.v|
+!i113 1
+R10
+R11
+vprogram_sequencer
+R12
+!i10b 1
+!s100 Z`=S;ko;fn0VhAW?Z?Po:1
+R1
+ILmBH5jlFgj@23W0?Qdb0K1
+R2
+R3
+w1634423168
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_sequencer.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_sequencer.v
+!i122 13
+L0 1 87
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_sequencer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/program_sequencer.v|
+!i113 1
+R10
+R11

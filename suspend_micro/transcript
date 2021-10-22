@@ -1,0 +1,651 @@
+# Loading project lab3_suspend_micro
+# Compile of CME341_latest_microprocessor.v was successful.
+# Compile of computational_unit.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of instruction_decoder.v was successful.
+# Compile of microprocessor_tb.v was successful.
+# Compile of program_memory.v was successful.
+# Compile of program_sequencer.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of CME341_latest_microprocessor.v was successful.
+# Compile of computational_unit.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of instruction_decoder.v was successful.
+# Compile of microprocessor_tb.v was successful.
+# Compile of program_memory.v was successful.
+# Compile of program_sequencer.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.microprocessor_tb -L cycloneive_ver -L altera_mf_ver -L altera_ver
+# vsim work.microprocessor_tb -L cycloneive_ver -L altera_mf_ver -L altera_ver 
+# Start time: 16:38:44 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 14
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'ir'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(14): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/microprocessor_tb/clk \
+sim:/microprocessor_tb/i_pins \
+sim:/microprocessor_tb/o_reg \
+sim:/microprocessor_tb/reset
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(22)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 22
+quit -sim
+# End time: 16:41:11 on Oct 16,2021, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 30
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb 
+# Start time: 16:43:44 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(25)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 25
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+add wave -position insertpoint  \
+sim:/microprocessor_tb/clk \
+sim:/microprocessor_tb/i_pins \
+sim:/microprocessor_tb/ir \
+sim:/microprocessor_tb/o_reg \
+sim:/microprocessor_tb/reset
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(25)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 25
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+do wave.do
+do wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(25)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 25
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(25)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 25
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_address'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Compile of microprocessor_tb.v failed with 1 errors.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of microprocessor_tb.v failed with 1 errors.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb
+# End time: 17:06:10 on Oct 16,2021, Elapsed time: 0:22:26
+# Errors: 0, Warnings: 24
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb 
+# Start time: 17:06:10 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/microprocessor_tb/clk \
+sim:/microprocessor_tb/reset \
+sim:/microprocessor_tb/i_pins \
+sim:/microprocessor_tb/o_reg \
+sim:/microprocessor_tb/ir \
+sim:/microprocessor_tb/pm_address
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 26
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 26
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb
+# End time: 17:13:40 on Oct 16,2021, Elapsed time: 0:07:30
+# Errors: 0, Warnings: 21
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb 
+# Start time: 17:13:40 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/microprocessor_tb/clk \
+sim:/microprocessor_tb/i_pins \
+sim:/microprocessor_tb/ir \
+sim:/microprocessor_tb/o_reg \
+sim:/microprocessor_tb/pm_address \
+sim:/microprocessor_tb/reset
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 26
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb
+# End time: 17:18:02 on Oct 16,2021, Elapsed time: 0:04:22
+# Errors: 0, Warnings: 21
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb 
+# Start time: 17:18:02 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+do wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 26
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pc'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_PS'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(26)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 26
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb
+# End time: 17:41:25 on Oct 16,2021, Elapsed time: 0:23:23
+# Errors: 0, Warnings: 21
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.microprocessor_tb 
+# Start time: 17:41:25 on Oct 16,2021
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+do wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(28)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 28
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+add wave -position insertpoint  \
+sim:/microprocessor_tb/clk \
+sim:/microprocessor_tb/from_PS \
+sim:/microprocessor_tb/i_pins \
+sim:/microprocessor_tb/ir \
+sim:/microprocessor_tb/o_reg \
+sim:/microprocessor_tb/pc \
+sim:/microprocessor_tb/pm_address \
+sim:/microprocessor_tb/reset
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/wave.do
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(28)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 28
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(28)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 28
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(28)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 28
+# Compile of microprocessor_tb.v was successful.
+# Compile of lab3_suspend_micro.vo was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.microprocessor_tb
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'uut'.  Expected 24, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/uut File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v Line: 16
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'pm_data'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_ID'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'register_enables'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPC8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPCF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPD8'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'NOPDF'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'from_CU'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'zero_flag'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'x1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y0'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'y1'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'r'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'm'.
+# ** Warning: (vsim-3722) /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(16): [TFMPC] - Missing connection for port 'i'.
+run -all
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v(28)
+#    Time: 1 ms  Iteration: 0  Instance: /microprocessor_tb
+# Break in Module microprocessor_tb at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/suspend_micro/microprocessor_tb.v line 28
+# End time: 18:54:05 on Oct 16,2021, Elapsed time: 1:12:40
+# Errors: 0, Warnings: 18

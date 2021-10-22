@@ -1,0 +1,144 @@
+# Loading project cme_341_mpu_test
+# Compile of CME341_latest_microprocessor.v failed with 1 errors.
+# Compile of computational_unit.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of instruction_decoder.v was successful.
+# Compile of program_memory.v was successful.
+# Compile of program_sequencer.v was successful.
+# Compile of final_exam_test_bench.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of CME341_latest_microprocessor.v was successful.
+# Compile of computational_unit.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of instruction_decoder.v was successful.
+# Compile of program_memory.v was successful.
+# Compile of program_sequencer.v was successful.
+# Compile of final_exam_test_bench.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of final_exam_test_bench.v was successful.
+# Compile of CME_341_MPU_2.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.final_exam_testbench -L cycloneive_ver -L altera_mf_ver -L altera_ver
+# vsim work.final_exam_testbench -L cycloneive_ver -L altera_mf_ver -L altera_ver 
+# Start time: 15:51:52 on Oct 15,2021
+# Loading work.final_exam_testbench
+# ** Error: (vsim-3033) Instantiation of 'microprocessor' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /final_exam_testbench File: /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v Line: 120
+#         Searched libraries:
+#             /opt/intelFPGA/20.1.1/modelsim_ase/altera/verilog/cycloneive
+#             /opt/intelFPGA/20.1.1/modelsim_ase/altera/verilog/altera_mf
+#             /opt/intelFPGA/20.1.1/modelsim_ase/altera/verilog/altera
+#             /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/work
+# Error loading design
+# End time: 15:51:53 on Oct 15,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 10
+# Compile of final_exam_test_bench.v was successful.
+# Compile of CME_341_MPU_2.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.final_exam_testbench
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.final_exam_testbench 
+# Start time: 15:53:30 on Oct 15,2021
+# Loading work.final_exam_testbench
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+run -all
+#    
+# Accumulator output is 4463 for seed aa at time 310 us
+#    
+# Accumulator output is 4463 for seed aa at time 630 us
+#    
+# Warning:  exam dependent seed is 8'HFF, which is not normally used in an exam. 
+# Accumulator output = 75a2 for exam dependent seed ff at time 950 us
+#    
+#    
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v(28)
+#    Time: 960 us  Iteration: 0  Instance: /final_exam_testbench
+# Break in Module final_exam_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v line 28
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+ls
+# CME341_latest_microprocessor.v
+# CME341_latest_microprocessor.v.bak
+# CME_341_MPU_2.qpf
+# CME_341_MPU_2.qsf
+# cme_341_mpu_test.cr.mti
+# cme_341_mpu_test.mpf
+# computational_unit.v
+# data_memory.v
+# db
+# final_preamble_wave.do
+# final_program_preamble.hex
+# incremental_db
+# instruction_decoder.v
+# output_files
+# program_memory.v
+# program_sequencer.v
+# simulation
+# transcript
+# work
+do final_preamble_wave.do
+run -all
+#    
+# Accumulator output is 4463 for seed aa at time 310 us
+#    
+# Accumulator output is 4463 for seed aa at time 630 us
+#    
+# Warning:  exam dependent seed is 8'HFF, which is not normally used in an exam. 
+# Accumulator output = 75a2 for exam dependent seed ff at time 950 us
+#    
+#    
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v(28)
+#    Time: 960 us  Iteration: 0  Instance: /final_exam_testbench
+# Break in Module final_exam_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v line 28
+quit -sim
+# End time: 15:59:45 on Oct 15,2021, Elapsed time: 0:06:15
+# Errors: 0, Warnings: 1
+# Compile of final_exam_test_bench.v was successful.
+# Compile of CME_341_MPU_2.vo was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.final_exam_testbench
+# vsim -L cycloneive_ver -L altera_mf_ver -L altera_ver work.final_exam_testbench 
+# Start time: 16:04:22 on Oct 15,2021
+# Loading work.final_exam_testbench
+# Loading work.CME341_latest_microprocessor
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
+# Loading altera_ver.PRIM_GDFF_LOW
+# WARNING: No extended dataflow license exists
+do final_preamble_wave.do
+run -all
+#    
+# Accumulator output is 90eb for seed aa at time 310 us
+#    
+# Accumulator output is 90eb for seed aa at time 630 us
+#    
+# Warning:  exam dependent seed is 8'HFF, which is not normally used in an exam. 
+# Accumulator output = 1f5f for exam dependent seed ff at time 950 us
+#    
+#    
+# ** Note: $stop    : /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v(28)
+#    Time: 960 us  Iteration: 0  Instance: /final_exam_testbench
+# Break in Module final_exam_testbench at /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v line 28
+# End time: 16:18:11 on Oct 15,2021, Elapsed time: 0:13:49
+# Errors: 0, Warnings: 2

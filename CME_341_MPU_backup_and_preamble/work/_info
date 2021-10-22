@@ -1,0 +1,196 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ths943/engr-ece
+vCME341_latest_microprocessor
+Z0 !s110 1634335449
+!i10b 1
+!s100 9b82lOC^kYNSnC2iLn;[k1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzSNPGSSBW5TfUFN5c9Uo^3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2
+Z4 w1634335445
+Z5 8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/simulation/modelsim/CME_341_MPU_2.vo
+Z6 F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/simulation/modelsim/CME_341_MPU_2.vo
+!i122 18
+L0 32 6302
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1634335448.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/simulation/modelsim/CME_341_MPU_2.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/simulation/modelsim/CME_341_MPU_2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c@m@e341_latest_microprocessor
+vcomputational_unit
+Z12 !s110 1634334581
+!i10b 1
+!s100 ]dPBSMa59[k5ig9]NQzjO0
+R1
+I]jU97Q7PG7cA:]V3P6jhI1
+R2
+R3
+w1575682838
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/computational_unit.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/computational_unit.v
+!i122 7
+L0 1 250
+R7
+r1
+!s85 0
+31
+Z13 !s108 1634334581.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/computational_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/computational_unit.v|
+!i113 1
+R10
+R11
+vdata_memory
+R12
+!i10b 1
+!s100 BH99E`P1mKJ<Ud^MX`=Pb3
+R1
+INe[dBWR:bGg>W<`2an5`e0
+R2
+R3
+w1575669367
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/data_memory.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/data_memory.v
+!i122 8
+L0 39 65
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/data_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/data_memory.v|
+!i113 1
+R10
+R11
+vfinal_exam_testbench
+!s110 1634335448
+!i10b 1
+!s100 m5N7i<WZTEon47YDfVNb`1
+R1
+ICd9P1I8]^fS4=`;P8QWX=2
+R2
+R3
+w1634334779
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v
+!i122 17
+L0 2 144
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/preamble_final_341/final_exam_test_bench.v|
+!i113 1
+R10
+R11
+vhard_block
+R0
+!i10b 1
+!s100 gVY<BH5nAd5A2NdHJfm6H2
+R1
+IbSgB1af2ILjo8>PPLABO:3
+R2
+R3
+R4
+R5
+R6
+!i122 18
+L0 6335 34
+R7
+r1
+!s85 0
+31
+R8
+Z14 !s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/simulation/modelsim/CME_341_MPU_2.vo|
+R9
+!i113 1
+R10
+R11
+vinstruction_decoder
+R12
+!i10b 1
+!s100 Z`E>]k`:A0im0CHO<TXlI2
+R1
+Ibi8zW2K3T>`5F5RaA4EKH0
+R2
+R3
+w1575682855
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/instruction_decoder.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/instruction_decoder.v
+!i122 9
+L0 1 269
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/instruction_decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/instruction_decoder.v|
+!i113 1
+R10
+R11
+vprogram_memory
+R12
+!i10b 1
+!s100 7jNoGWMUH?4MPTRJLPA=43
+R1
+IbkDlE8ZATG@<BKGn>EF:=3
+R2
+R3
+w1575661353
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_memory.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_memory.v
+!i122 10
+L0 39 66
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_memory.v|
+!i113 1
+R10
+R11
+vprogram_sequencer
+R12
+!i10b 1
+!s100 <N555zM=W@QZ3]_16D:b[1
+R1
+I?49A;Ye[M9MTGk=X>_cYh0
+R2
+R3
+w1575683996
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_sequencer.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_sequencer.v
+!i122 11
+L0 1 37
+R7
+r1
+!s85 0
+31
+R13
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_sequencer.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/CME_341_MPU_2/program_sequencer.v|
+!i113 1
+R10
+R11

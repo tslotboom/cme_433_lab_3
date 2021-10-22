@@ -1,0 +1,21 @@
+module comb_logic(
+    input [7:0] in,
+    output reg [7:0] out
+    );
+
+    reg [7:0] mid_computation;
+
+    always @ * begin
+        mid_computation = in * 49;
+        mid_computation = mid_computation + 3;
+        mid_computation = mid_computation - 1;
+        mid_computation = mid_computation - 2;
+        mid_computation = mid_computation / 49;
+        mid_computation = mid_computation >> 45;
+        mid_computation = mid_computation * 4;
+        mid_computation = mid_computation << 45;
+        mid_computation = mid_computation / 4;
+        out = mid_computation;
+    end
+
+endmodule

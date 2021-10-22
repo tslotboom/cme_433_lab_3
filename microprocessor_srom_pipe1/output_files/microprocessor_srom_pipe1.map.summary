@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 21 17:49:51 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : microprocessor_srom_pipe1
+Top-level Entity Name : micro_srom_pipe1
+Family : Cyclone IV E
+Total logic elements : 838
+    Total combinational functions : 809
+    Dedicated logic registers : 57
+Total registers : 57
+Total pins : 141
+Total virtual pins : 0
+Total memory bits : 2,112
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

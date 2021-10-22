@@ -1,0 +1,81 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe1
+vCME341_latest_microprocessor
+Z0 !s110 1634857242
+!i10b 1
+!s100 AO@?[6KH=X2QoSKehIIM[0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYlGKKBJzm<;Z0fb@Y5aXz2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2
+Z4 w1634853181
+Z5 8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo
+Z6 F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo
+!i122 19
+L0 32 19589
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1634857241.000000
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@c@m@e341_latest_microprocessor
+vhard_block
+R0
+!i10b 1
+!s100 LT=jU=zI]WFkle_lQcaVI2
+R1
+I2h<BS0b=_;cWKL2NG]fBC2
+R2
+R3
+R4
+R5
+R6
+!i122 19
+L0 19622 34
+R7
+r1
+!s85 0
+31
+R8
+Z12 !s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo|
+R9
+!i113 1
+R10
+R11
+vmicroprocessor_tb
+!s110 1634857241
+!i10b 1
+!s100 iaVhk[83`GkaJgDUFfEW=0
+R1
+I`YBbiX2^5W=8]FO;EIY@W1
+R2
+R3
+w1634851627
+8/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/microprocessor_tb.v
+F/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/microprocessor_tb.v
+!i122 18
+L0 3 62
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/microprocessor_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/microprocessor_tb.v|
+!i113 1
+R10
+R11

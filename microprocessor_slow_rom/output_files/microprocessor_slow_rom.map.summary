@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Oct 21 18:01:20 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : microprocessor_slow_rom
+Top-level Entity Name : micro_slow_rom
+Family : Cyclone IV E
+Total logic elements : 816
+    Total combinational functions : 795
+    Dedicated logic registers : 49
+Total registers : 49
+Total pins : 124
+Total virtual pins : 0
+Total memory bits : 2,112
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
