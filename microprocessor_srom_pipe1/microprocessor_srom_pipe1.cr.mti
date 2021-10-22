@@ -1,4 +1,12 @@
-/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo
+/home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_slow_rom/simulation/modelsim/microprocessor_slow_rom.vo {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_slow_rom/simulation/modelsim/microprocessor_slow_rom.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module micro_slow_rom
+-- Compiling module hard_block
+
+Top level modules:
+	micro_slow_rom
+
+} {} {}} /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo {1 {vlog -work work -stats=none /home/ths943/engr-ece/cme/433_digital_systems_architecture/labs/lab3/microprocessor_srom_pipe2/simulation/modelsim/microprocessor_srom_pipe2.vo
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module micro_srom_pipe2
 -- Compiling module hard_block
